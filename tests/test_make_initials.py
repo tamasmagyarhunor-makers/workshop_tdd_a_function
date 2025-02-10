@@ -16,6 +16,7 @@ def test_make_initials_returns_initials():
 
     # assertion, comparing the actual with the expected if they're the same
     assert actual == expected
+    assert make_initials(name) == "S.C"
 
 def test_make_initials_returns_initials_with_another_name():
     # scenario or setup
